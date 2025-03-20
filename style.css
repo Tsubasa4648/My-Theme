@@ -1,0 +1,48 @@
+/*
+Theme Name: My Theme
+Theme URI: https://example.com/
+Author: Your Name
+Author URI: https://example.com/
+Description: This is a custom WordPress theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: my-theme
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #0073aa;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+}
+
+footer {
+    background: #0073aa;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
